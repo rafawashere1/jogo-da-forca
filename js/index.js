@@ -57,6 +57,7 @@ class Forca {
       
           if (jogadorAcertou) {
             this.mensagemFinal = `Você acertou a palavra ${this.palavraSecreta}, parabéns!`;
+            this.btnTentativa.disabled = true;
             this.exibirNotificacao(this.mensagemFinal, jogadorAcertou);
           } else {
             this.mensagemFinal = `Você acertou a letra ${palpite}!`;
