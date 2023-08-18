@@ -168,7 +168,6 @@ class Forca {
         this.atualizarPalavraParcial();
         this.atualizarTentativas();
         this.txtChute.value = '';
-        this.palavraParcial.textContent = 'Palavra:';
 
         pnlConteudo.querySelector('p')?.remove();
         
