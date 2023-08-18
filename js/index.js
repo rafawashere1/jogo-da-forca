@@ -85,9 +85,14 @@ class Forca {
   
     obterPalavraSecreta() {
       const palavras = [
-        "ABACATE",
-        "ABACAXI",
-        "UVAIA"
+        "INCONSTITUCIONALISSIMAMENTE",
+        "WUKONG",
+        "INTER",
+        "COLORADO",
+        "TENEBROSO",
+        "CARAMBOLA",
+        "JENIPAPO",
+        "TESTE"
       ];
   
       const indiceAleatorio = Math.floor(Math.random() * palavras.length);
@@ -97,7 +102,7 @@ class Forca {
 
     atualizarImagem() {
         const imgForca = document.querySelector('.cabecalho > img');
-        imgForca.src = `../img/${this.erros + 1}.png`;
+        imgForca.src = `img/${this.erros + 1}.png`;
       }
     
     atualizarTentativas() {
